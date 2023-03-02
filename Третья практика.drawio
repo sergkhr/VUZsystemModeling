@@ -1,1 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T12:00:42.721Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" version="20.8.23" etag="wSeHI8wktRrOdUmWa_GT" type="github"><diagram name="Страница 1" id="bNeiAaEnyBH8WvRXnUEs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-02T12:06:40.460Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="YUz39jnndz9gWEpR-6rM" version="20.8.23" type="github">
+  <diagram name="Страница 1" id="bNeiAaEnyBH8WvRXnUEs">
+    <mxGraphModel dx="1035" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5VDwdmueqKIIs9lsqTtb-1" value="Клиентское ПО" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="430" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="5VDwdmueqKIIs9lsqTtb-4" value="Связь с БД" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="5VDwdmueqKIIs9lsqTtb-1">
+          <mxGeometry x="304" y="395" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VDwdmueqKIIs9lsqTtb-2" value="БД" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="110" width="410" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="5VDwdmueqKIIs9lsqTtb-6" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5VDwdmueqKIIs9lsqTtb-4">
+          <mxGeometry x="-0.1624" y="32" width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="530" as="sourcePoint" />
+            <mxPoint x="500" y="552" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T16:47:04.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="Jn-LntIkp_o6u3fWRp7f" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T16:57:01.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="IftXlE2g4Hpk9hLKxACP" version="21.0.6" type="github">
   <diagram id="tuKGfG5eKeDsHUazF-pp" name="Страница 1">
-    <mxGraphModel dx="986" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="573" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -304,7 +304,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aZN-3JPKK4wE17QASu8p-13" value="с:Учебный курс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="460" y="1680" width="100" height="300" as="geometry" />
+          <mxGeometry x="414" y="1680" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aZN-3JPKK4wE17QASu8p-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aZN-3JPKK4wE17QASu8p-13" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
@@ -317,15 +317,47 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aZN-3JPKK4wE17QASu8p-16" value=":Данные по студенту" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="630" y="1680" width="100" height="300" as="geometry" />
+          <mxGeometry x="590" y="1680" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aZN-3JPKK4wE17QASu8p-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aZN-3JPKK4wE17QASu8p-16" vertex="1">
           <mxGeometry x="45" y="110" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aZN-3JPKK4wE17QASu8p-17" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aZN-3JPKK4wE17QASu8p-14" target="aZN-3JPKK4wE17QASu8p-18" edge="1">
+        <mxCell id="aZN-3JPKK4wE17QASu8p-17" value="запросИсторииПройденных&lt;br&gt;Семинаров(студент)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aZN-3JPKK4wE17QASu8p-14" target="aZN-3JPKK4wE17QASu8p-18" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="580" y="1790" as="sourcePoint" />
             <mxPoint x="650" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2DuBT9VBt3-Hz0C4V5M-1" value="d:Слушатель" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="727" y="1680" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-2DuBT9VBt3-Hz0C4V5M-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="-2DuBT9VBt3-Hz0C4V5M-1">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-2DuBT9VBt3-Hz0C4V5M-5" value="определениеСтатуса&lt;br&gt;Подготовленности()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="-2DuBT9VBt3-Hz0C4V5M-1" source="-2DuBT9VBt3-Hz0C4V5M-3" target="-2DuBT9VBt3-Hz0C4V5M-3">
+          <mxGeometry x="-0.3333" y="38" width="80" relative="1" as="geometry">
+            <mxPoint x="123" y="130" as="sourcePoint" />
+            <mxPoint x="203" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2DuBT9VBt3-Hz0C4V5M-7" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="-2DuBT9VBt3-Hz0C4V5M-1">
+          <mxGeometry x="35" y="230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-2DuBT9VBt3-Hz0C4V5M-4" value="передачаИстории()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aZN-3JPKK4wE17QASu8p-18" target="-2DuBT9VBt3-Hz0C4V5M-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="645" y="1814" as="sourcePoint" />
+            <mxPoint x="785" y="1814" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="1814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2DuBT9VBt3-Hz0C4V5M-8" value="сообщениеРезультатЗаписи(статус)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.2307" y="-8" relative="1" as="geometry">
+            <mxPoint x="772" y="1868.1627906976746" as="sourcePoint" />
+            <mxPoint x="135" y="1868.1627906976746" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

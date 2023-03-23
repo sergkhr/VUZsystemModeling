@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T11:50:44.729Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" version="21.0.6" etag="iuBQtdnkJLp6syLSIPAJ" type="github"><diagram name="Страница 1" id="8JhqGt4s1RWdOwkgNLIM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-23T11:57:17.611Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="QG0kIrMEp4kSOH5Cmi8V" version="21.0.6" type="github">
+  <diagram name="Страница 1" id="8JhqGt4s1RWdOwkgNLIM">
+    <mxGraphModel dx="712" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d_NmB0Je8mkOcdR7Ibd4-1" value="ВУЗ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="270" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="d_NmB0Je8mkOcdR7Ibd4-2" value="- группы: List&amp;lt;Группа&amp;gt;&lt;br&gt;- предметы: List&amp;lt;Предмет&amp;gt;&lt;br&gt;- преподаватели: List&amp;lt;Преподаватель&amp;gt;&lt;br&gt;- аудитории: List&amp;lt;Аудитория&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d_NmB0Je8mkOcdR7Ibd4-1">
+          <mxGeometry y="26" width="270" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="d_NmB0Je8mkOcdR7Ibd4-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d_NmB0Je8mkOcdR7Ibd4-1">
+          <mxGeometry y="110" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d_NmB0Je8mkOcdR7Ibd4-4" value="+ добавитьПредмет(Предмет)&lt;br&gt;+ удалитьПредмет(Предмет)&lt;br&gt;+ добавитьПреподавателя(Преподаватель)&lt;br&gt;+ удалитьПреподавателя(Преподаватель)&lt;br&gt;+ добавитьГруппу(Группа)&lt;br&gt;+ удалитьГруппу(Группа)&lt;br&gt;+ добавитьАудиторию(Аудитория)&lt;br&gt;+ удалитьАудиторию(Аудитория)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d_NmB0Je8mkOcdR7Ibd4-1">
+          <mxGeometry y="118" width="270" height="132" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

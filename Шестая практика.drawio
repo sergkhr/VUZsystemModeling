@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T10:58:14.989Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="-o15zF_xtMAjh5XUuFhw" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T10:58:26.363Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="B9-6VHGvrFEAxFiI-h6Y" version="21.1.8" type="github">
   <diagram name="Страница 1" id="bJl9cXbGcnSWIcir6nBS">
     <mxGraphModel dx="3328" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mc409ZRpy6exffoIuJcx-21" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="mc409ZRpy6exffoIuJcx-7">
+        <mxCell id="mc409ZRpy6exffoIuJcx-21" value="обработать запрос" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="mc409ZRpy6exffoIuJcx-7">
           <mxGeometry x="40" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mc409ZRpy6exffoIuJcx-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="mc409ZRpy6exffoIuJcx-21" parent="mc409ZRpy6exffoIuJcx-7">
